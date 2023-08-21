@@ -31,7 +31,7 @@ int main(void)
 	for (index = 0; passward[index]; index++)
 
 	{
-		if (passward[index] >= (33 diff_half1))
+		if (passward[index] >= (33 + diff_half1))
 		{
 			passward[index] -= diff_half1;
 			break;
